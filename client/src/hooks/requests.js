@@ -40,7 +40,7 @@ async function httpAbortLaunch(id) {
     });
   } catch(err) {
     console.log(err);
-    return {
+    return {    
       ok: false,
     };
   }
